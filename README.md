@@ -17,6 +17,10 @@ How to Run
 Clone the repository:
 git clone https://github.com/jlin1599/pong_game.git
 
+Install Dependencies (if necessary):
+If you're on Linux (Ubuntu), you can install Raylib with:
+sudo apt-get install libraylib-dev
+
 Build the game:
 g++ -o pong main.cpp -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
